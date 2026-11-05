@@ -9,4 +9,4 @@ Uma nota por decisão, numerada em ordem. Para registrar uma nova, copie [[_mode
 | # | Decisão | Status |
 |---|---|---|
 | [[0001-fluxo-git-seguro\|0001]] | Fluxo Git seguro: skill de commit e agente GitHub | Aceita |
-| [[0002-vault-obsidian-como-contexto\|0002]] | Vault do Obsidian em `docs/` como contexto do projeto | Aceita |
+| [[0002-vault-obsidian-como-contexto\|0002]] | Vault do Obsidian em `racingtournament_vault/` como contexto do projeto | Aceita |

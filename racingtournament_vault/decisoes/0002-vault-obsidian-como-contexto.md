@@ -1,5 +1,5 @@
 ---
-resumo: A pasta docs/ é um vault do Obsidian que guarda o contexto do projeto para pessoas e para o Claude
+resumo: A pasta racingtournament_vault/ é um vault do Obsidian que guarda o contexto do projeto para pessoas e para o Claude
 data: 2026-11-05
 status: Aceita
 ---
@@ -12,7 +12,7 @@ Queremos um sistema que dê contexto e direcione o raciocínio do Claude ao long
 
 ## Decisão
 
-- `docs/` é um vault do Obsidian versionado no repositório.
+- `racingtournament_vault/` é um vault do Obsidian versionado no repositório.
 - `CLAUDE.md` (lido automaticamente pelo Claude em toda sessão) é o mapa: lista cada nota com "abra quando…".
 - Conhecimento (o quê e por quê) fica no vault; procedimentos (como fazer) ficam em skills em `.claude/`.
 - Notas curtas, um assunto por nota, com `resumo` no frontmatter; pastas com `_indice.md`.
