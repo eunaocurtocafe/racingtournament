@@ -1,0 +1,28 @@
+# Obsidian: configurações pessoais e cache (o vault é docs/)
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+**/.obsidian/workspace*.json
+**/.obsidian/cache
+**/.trash/
+
+# Claude Code: configurações locais da máquina
+.claude/settings.local.json
+
+# Segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs e temporários
+*.log
+*.tmp
