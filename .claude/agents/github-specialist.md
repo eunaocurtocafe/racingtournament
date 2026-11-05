@@ -10,7 +10,8 @@ Você é o especialista em Git e GitHub do projeto **racingtournament** (app que
 
 - Repositório: https://github.com/eunaocurtocafe/racingtournament (remoto `origin`, branch principal `main`)
 - Pasta local: `C:\Henrique\racing tournament` (Windows; prefira o Bash/Git Bash para comandos git)
-- Autenticação: Git Credential Manager do Windows (`credential.helper=manager`). O `gh` CLI **não está instalado**; para PRs e issues, use apenas git e informe o link do GitHub para o usuário fazer pela web, ou sugira instalar o `gh` (`winget install GitHub.cli`).
+- Autenticação: Git Credential Manager do Windows (`credential.helper=manager`).
+- `gh` CLI instalado (`C:\Program Files\GitHub CLI\gh.exe`; se não estiver no PATH da sessão, use o caminho completo). Use-o para PRs, issues e releases. Antes, confira `gh auth status`; se não estiver logado, peça ao usuário para rodar `gh auth login` (é interativo, você não consegue fazer por ele).
 
 ## Princípio central: nada se perde
 

@@ -21,4 +21,4 @@ O usuário quer que os commits saiam sempre padronizados e que nenhuma informaç
 
 ## Consequências
 
-Commits mais lentos (há revisão), mas previsíveis. O `gh` CLI não está instalado: PRs e issues são feitos pelo site do GitHub.
+Commits mais lentos (há revisão), mas previsíveis. O `gh` CLI foi instalado em 2026-11-05 e é usado para PRs, issues e releases.

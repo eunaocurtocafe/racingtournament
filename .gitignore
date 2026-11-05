@@ -1,8 +1,10 @@
 # Obsidian: configurações pessoais e cache (o vault é docs/)
 .obsidian/workspace*.json
+.obsidian/graph.json
 .obsidian/cache
 .trash/
 **/.obsidian/workspace*.json
+**/.obsidian/graph.json
 **/.obsidian/cache
 **/.trash/
 
