@@ -13,11 +13,14 @@ atualizado: 2026-11-05
 
 ## Em andamento
 
-- [ ] Definir simulador e plataforma (ver [[visao]])
+- [x] Simulador definido: F1 25 ([[simulador]])
+- [x] Plataforma do app: celular, iOS e Android (ver [[visao]])
+- [ ] Mapear o layout da tela de resultado do F1 25 a partir de prints reais
 
 ## Próximos
 
-- [ ] Escolher a stack → [[arquitetura]]
+- [x] Stack escolhida: Expo + Supabase + Claude ([[0003-stack-app-mobile]])
+- [ ] Criar o projeto Expo e o projeto no Supabase
 - [ ] Coletar prints reais de exemplo para servir de teste
 - [ ] Protótipo da leitura de um print
 - [ ] Definir regras de pontuação → [[pontuacao]]

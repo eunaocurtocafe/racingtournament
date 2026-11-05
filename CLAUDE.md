@@ -1,6 +1,6 @@
 # Racing Tournament
 
-App que recebe prints de resultados de corridas que um grupo de amigos faz em um simulador e organiza pontuação, campeonatos, maiores vencedores, histórico e melhores voltas.
+App que recebe prints de resultados de corridas que um grupo de amigos faz no simulador **EA Sports F1 25** e organiza pontuação, campeonatos, maiores vencedores, histórico e melhores voltas.
 
 Repositório: https://github.com/eunaocurtocafe/racingtournament (branch `main`). Idioma do projeto: português.
 

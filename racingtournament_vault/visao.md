@@ -7,11 +7,11 @@ atualizado: 2026-11-05
 
 ## Problema
 
-Um grupo de amigos corre junto em um simulador e quer acompanhar quem está ganhando: pontos, campeonatos, histórico e melhores voltas. Hoje os resultados ficam espalhados em prints.
+Um grupo de amigos corre junto no F1 25 e quer acompanhar quem está ganhando: pontos, campeonatos, histórico e melhores voltas. Hoje os resultados ficam espalhados em prints.
 
 ## Solução
 
-Um app que recebe os **prints da tela de resultado** de cada corrida, extrai os dados (posições, pilotos, tempos, melhor volta) e mantém automaticamente:
+Um app de celular (iOS e Android) que recebe uma **imagem da tela de resultado** de cada corrida (foto tirada com a câmera do celular ou print da galeria), extrai os dados (posições, pilotos, tempos, melhor volta) e mantém automaticamente:
 
 - Pontuação por corrida e por campeonato
 - Classificação de campeonatos com várias etapas
@@ -21,18 +21,20 @@ Um app que recebe os **prints da tela de resultado** de cada corrida, extrai os 
 
 ## Público
 
-O grupo de amigos (poucos usuários). O organizador cadastra corridas e campeonatos.
+O grupo de amigos (hoje 4 pilotos), cada um com o app no próprio celular (iOS ou Android) e vendo os mesmos dados. O organizador cadastra corridas e campeonatos.
 
 ## Em aberto
 
-- [ ] **Simulador usado** (iRacing, Assetto Corsa, ACC, F1, Gran Turismo…): define como ler os prints → registrar em [[simulador]]
-- [ ] **Plataforma**: site no navegador, app de celular ou só no computador → registrar em [[decisoes/_indice|decisões]]
+- [x] **Simulador usado**: EA Sports F1 25 → [[simulador]]
+- [x] Onde jogam o F1 25: cross-play, 2 no PC e 2 no console → [[simulador]]
+- [x] **Plataforma do app**: celular, funcionando em **iOS e Android**
+- [x] Stack do app → [[0003-stack-app-mobile]]
 - [ ] Quem pode enviar prints: só o organizador ou todos os amigos?
 - [ ] Sistema de pontuação → [[pontuacao]]
 
 ## Fora do escopo (por enquanto)
 
-- Integração direta com a API ou telemetria do simulador (a entrada são prints)
+- Qualquer integração com o F1 25 (API, telemetria): a entrada é só imagem, por câmera ou galeria
 - Corridas abertas ao público fora do grupo
 
 Veja também: [[roadmap]], [[arquitetura]].
